@@ -1,0 +1,93 @@
+/* First Year — gallery stylesheet */
+
+:root {
+  --bg:     #16130F;
+  --text:   #EDE9E3;
+  --muted:  #9C958A;
+  --rule:   #2C2721;
+  --accent: #8A9A70;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+header,
+main,
+footer {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 3rem 0 1rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.plate {
+  margin: 6rem 0;
+}
+
+.plate img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.plate figcaption {
+  margin-top: 0.75rem;
+  text-align: left;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.plate figcaption span + span::before {
+  content: ", ";
+}
+
+footer {
+  margin-top: 6rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.25rem;
+  padding-bottom: 3rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .plate {
+    margin: 4rem 0;
+  }
+
+  footer {
+    margin-top: 4rem;
+  }
+}
