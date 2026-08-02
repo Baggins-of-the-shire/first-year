@@ -65,10 +65,13 @@ a {
   font-size: 0.8125rem;
   letter-spacing: 0.04em;
   color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.4em;
 }
 
-.plate figcaption span + span::before {
-  content: ", ";
+.plate figcaption span:not(:last-child)::after {
+  content: ",";
 }
 
 footer {
