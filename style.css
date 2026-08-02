@@ -108,6 +108,25 @@ main > .plate:first-child {
   gap: 0.75rem;
 }
 
+.full a.close-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
 .full a.close {
   display: block;
   min-height: 0;
