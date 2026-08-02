@@ -127,6 +127,60 @@ main > .plate:first-child {
   text-decoration: none;
 }
 
+.full a.prev,
+.full a.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 1.75rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.full a.prev {
+  left: 0.75rem;
+}
+
+.full a.next {
+  right: 0.75rem;
+}
+
+.full .count {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.top-link {
+  margin: 0 0 4rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 .full a.close {
   display: block;
   min-height: 0;
@@ -158,5 +212,10 @@ main > .plate:first-child {
 
   .full {
     padding: 0.75rem;
+  }
+
+  .top-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }

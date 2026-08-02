@@ -4,9 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>First Year</title>
+  <!-- Inline favicon: a small mushroom, no external file -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2 8a6 5.5 0 0 1 12 0z' fill='%238A9A70'/%3E%3Crect x='6.2' y='8' width='3.6' height='6' rx='1.4' fill='%239C958A'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
 
   <header>
     <h1>First Year</h1>
@@ -19,7 +21,7 @@
       <a class="zoom" href="#full-mallards-pond" aria-label="View full size">
         <img src="images/2026-06-25-mallards-pond.jpg"
              alt="A mallard drake and hen rest in the grass at the edge of a pond, the dark water behind them speckled with floating seed fluff."
-             width="1600" height="1200" loading="lazy" decoding="async">
+             width="1600" height="1200" loading="eager" decoding="async">
       </a>
       <figcaption>
         <span class="subject">Mallard pair resting</span>
@@ -244,11 +246,16 @@
     </figure>
 
 
+    <p class="top-link"><a href="#top">Back to top</a></p>
+
     <!-- Full-screen views. Pure CSS: each opens when its id is the URL target;
          clicking the photo (or the browser Back button) returns to the gallery. -->
 
     <figure class="full" id="full-mallards-pond">
       <a class="close-button" href="#mallards-pond" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-deer-pair" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-tan-caps" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">1 / 19</span>
       <a class="close" href="#mallards-pond" aria-label="Back to the gallery">
         <img src="images/2026-06-25-mallards-pond.jpg"
              alt="A mallard drake and hen rest in the grass at the edge of a pond, the dark water behind them speckled with floating seed fluff."
@@ -262,6 +269,9 @@
 
     <figure class="full" id="full-tan-caps">
       <a class="close-button" href="#tan-caps" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-mallards-pond" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-white-colony-wide" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">2 / 19</span>
       <a class="close" href="#tan-caps" aria-label="Back to the gallery">
         <img src="images/2026-06-24-tan-caps.jpg"
              alt="Three small tan mushrooms with striated bell caps push out of dark leaf litter, lit from behind by out-of-focus orange leaves."
@@ -275,6 +285,9 @@
 
     <figure class="full" id="full-white-colony-wide">
       <a class="close-button" href="#white-colony-wide" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-tan-caps" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-white-colony-log" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">3 / 19</span>
       <a class="close" href="#white-colony-wide" aria-label="Back to the gallery">
         <img src="images/2026-06-23-white-colony-wide.jpg"
              alt="Dozens of shaggy white oval caps crowd along both sides of a fallen branch on a rotting log, ringed by wet green undergrowth."
@@ -288,6 +301,9 @@
 
     <figure class="full" id="full-white-colony-log">
       <a class="close-button" href="#white-colony-log" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-white-colony-wide" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-lawn-cap" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">4 / 19</span>
       <a class="close" href="#white-colony-log" aria-label="Back to the gallery">
         <img src="images/2026-06-23-white-colony-log.jpg"
              alt="A mass of shaggy, scale-flecked white mushrooms in every size pushes up around a bare fallen branch lying across decayed wood."
@@ -301,6 +317,9 @@
 
     <figure class="full" id="full-lawn-cap">
       <a class="close-button" href="#lawn-cap" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-white-colony-log" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-caps-violets" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">5 / 19</span>
       <a class="close" href="#lawn-cap" aria-label="Back to the gallery">
         <img src="images/2026-06-21-lawn-cap.jpg"
              alt="A single cream-colored mushroom with a flattened, faintly cracked cap stands in mowed grass in front of a strip of river-rock landscaping."
@@ -314,6 +333,9 @@
 
     <figure class="full" id="full-caps-violets">
       <a class="close-button" href="#caps-violets" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-lawn-cap" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-flat-caps" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">6 / 19</span>
       <a class="close" href="#caps-violets" aria-label="Back to the gallery">
         <img src="images/2026-06-17-caps-violets.jpg"
              alt="Two pale mushrooms with upturned, rain-flecked caps rise from a patch of lawn at the bottom of a gentle slope that made a great home for this colony."
@@ -327,6 +349,9 @@
 
     <figure class="full" id="full-flat-caps">
       <a class="close-button" href="#flat-caps" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-caps-violets" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-button-pair" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">7 / 19</span>
       <a class="close" href="#flat-caps" aria-label="Back to the gallery">
         <img src="images/2026-06-14-flat-caps.jpg"
              alt="Two broad cream caps, their edges just touching, spread over dark grass with a blurred tree trunk and walking path behind them."
@@ -340,6 +365,9 @@
 
     <figure class="full" id="full-button-pair">
       <a class="close-button" href="#button-pair" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-flat-caps" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-golden-shelves" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">8 / 19</span>
       <a class="close" href="#button-pair" aria-label="Back to the gallery">
         <img src="images/2026-06-13-button-pair.jpg"
              alt="Two rounded white caps tinged tan at their crowns nestle side by side in deep green grass, one leaning against the other."
@@ -353,6 +381,9 @@
 
     <figure class="full" id="full-golden-shelves">
       <a class="close-button" href="#golden-shelves" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-button-pair" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-lawn-cluster" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">9 / 19</span>
       <a class="close" href="#golden-shelves" aria-label="Back to the gallery">
         <img src="images/2026-06-11-golden-shelves.jpg"
              alt="Ruffled golden shelf fungus sprouts at three heights up a deeply furrowed tree trunk, backlit by green canopy and a scrap of blue sky."
@@ -366,6 +397,9 @@
 
     <figure class="full" id="full-lawn-cluster">
       <a class="close-button" href="#lawn-cluster" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-golden-shelves" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-lawn-trio" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">10 / 19</span>
       <a class="close" href="#lawn-cluster" aria-label="Back to the gallery">
         <img src="images/2026-06-11-lawn-cluster.jpg"
              alt="A cluster of flat tan mushrooms sits in wet clover-studded grass while a loose line of white-stemmed caps recedes up the slope behind."
@@ -379,6 +413,9 @@
 
     <figure class="full" id="full-lawn-trio">
       <a class="close-button" href="#lawn-trio" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-lawn-cluster" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-cap-under-leaf" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">11 / 19</span>
       <a class="close" href="#lawn-trio" aria-label="Back to the gallery">
         <img src="images/2026-06-11-lawn-trio.jpg"
              alt="Three cream mushrooms with wavy, rain-spotted caps stand at different heights in glistening grass and clover."
@@ -392,6 +429,9 @@
 
     <figure class="full" id="full-cap-under-leaf">
       <a class="close-button" href="#cap-under-leaf" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-lawn-trio" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-woodland-shelves" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">12 / 19</span>
       <a class="close" href="#cap-under-leaf" aria-label="Back to the gallery">
         <img src="images/2026-06-10-cap-under-leaf.jpg"
              alt="A small white mushroom shelters beneath a fallen green leaf that rests on its cap like an awning, among twigs and dry stems."
@@ -405,6 +445,9 @@
 
     <figure class="full" id="full-woodland-shelves">
       <a class="close-button" href="#woodland-shelves" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-cap-under-leaf" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-mallards-grass" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">13 / 19</span>
       <a class="close" href="#woodland-shelves" aria-label="Back to the gallery">
         <img src="images/2026-06-10-woodland-shelves.jpg"
              alt="Pale yellow shelf fungus fans out from the base of a leaning trunk in a stand of trees, above a floor of knee-high undergrowth."
@@ -418,6 +461,9 @@
 
     <figure class="full" id="full-mallards-grass">
       <a class="close-button" href="#mallards-grass" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-woodland-shelves" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-pink-cluster" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">14 / 19</span>
       <a class="close" href="#mallards-grass" aria-label="Back to the gallery">
         <img src="images/2026-06-07-mallards-grass.jpg"
              alt="A mallard drake and hen walk through tall wet grass beside a leaf-scattered asphalt path, with a low wooden rail fence behind."
@@ -431,6 +477,9 @@
 
     <figure class="full" id="full-pink-cluster">
       <a class="close-button" href="#pink-cluster" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-mallards-grass" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-tiny-grey-cap" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">15 / 19</span>
       <a class="close" href="#pink-cluster" aria-label="Back to the gallery">
         <img src="images/2026-06-07-pink-cluster.jpg"
              alt="Half a dozen delicate pinkish-tan mushrooms with pleated caps stand in mown grass at the edge of a mulched bed of iris leaves."
@@ -444,6 +493,9 @@
 
     <figure class="full" id="full-tiny-grey-cap">
       <a class="close-button" href="#tiny-grey-cap" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-pink-cluster" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-grey-cat" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">16 / 19</span>
       <a class="close" href="#tiny-grey-cap" aria-label="Back to the gallery">
         <img src="images/2026-05-31-tiny-grey-cap.jpg"
              alt="A single small grey-white mushroom hides low in a tangle of thick wet lawn grass, a blade bending across its cap."
@@ -457,6 +509,9 @@
 
     <figure class="full" id="full-grey-cat">
       <a class="close-button" href="#grey-cat" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-tiny-grey-cap" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-pink-button" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">17 / 19</span>
       <a class="close" href="#grey-cat" aria-label="Back to the gallery">
         <img src="images/2026-05-31-grey-cat.jpg"
              alt="A grey cat with amber eyes sits among rain-soaked leaves and deadfall, looking back over its shoulder at the camera."
@@ -470,6 +525,9 @@
 
     <figure class="full" id="full-pink-button">
       <a class="close-button" href="#pink-button" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-grey-cat" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-deer-pair" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">18 / 19</span>
       <a class="close" href="#pink-button" aria-label="Back to the gallery">
         <img src="images/2026-05-30-pink-button.jpg"
              alt="A pink-tinged button mushroom on a slender stalk stands in wet grass beside a long yellow leaf caught in the blades."
@@ -483,6 +541,9 @@
 
     <figure class="full" id="full-deer-pair">
       <a class="close-button" href="#deer-pair" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-pink-button" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-mallards-pond" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">19 / 19</span>
       <a class="close" href="#deer-pair" aria-label="Back to the gallery">
         <img src="images/2026-04-11-deer-pair.jpg"
              alt="Two white-tailed deer pause on spring grass beside a curving paved trail, the nearer one facing the camera with ears spread wide."
