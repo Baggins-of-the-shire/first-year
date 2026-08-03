@@ -1,0 +1,37 @@
+[
+  {
+    "key": "mushrooms",
+    "icon": "🍄",
+    "label": "Mushrooms"
+  },
+  {
+    "key": "deer",
+    "icon": "🦌",
+    "label": "Deer"
+  },
+  {
+    "key": "rabbits",
+    "icon": "🐇",
+    "label": "Rabbits"
+  },
+  {
+    "key": "birds",
+    "icon": "🪶",
+    "label": "Birds"
+  },
+  {
+    "key": "cats",
+    "icon": "🐈",
+    "label": "Cats"
+  },
+  {
+    "key": "passing",
+    "icon": "🦊",
+    "label": "Just passing"
+  },
+  {
+    "key": "path",
+    "icon": "🌿",
+    "label": "The path"
+  }
+]
