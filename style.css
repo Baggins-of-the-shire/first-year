@@ -22,7 +22,8 @@ body {
 }
 
 header,
-main {
+main,
+footer {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -108,7 +109,8 @@ main > .plate:first-child {
   gap: 0.75rem;
 }
 
-.full a.close-button {
+.full a.close-button,
+.panel a.close-button {
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
@@ -168,17 +170,107 @@ main > .plate:first-child {
   color: var(--muted);
 }
 
-.top-link {
-  margin: 0 0 4rem;
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.15rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
   font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
   font-size: 0.8125rem;
   letter-spacing: 0.04em;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.button:hover {
+  border-color: var(--accent);
+}
+
+.start-here {
+  margin: 1.75rem 0 0;
+}
+
+/* The end of the walk */
+footer {
+  margin-top: 2.5rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.house {
+  display: block;
+  width: 192px;
+  height: auto;
+  margin: 0 auto 1.75rem;
+}
+
+.footer-links {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+/* Chimney smoke. Resting positions, so it still reads as smoke when still. */
+.house .ring {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.house .r1 { transform: translate(0, 0) scale(0.85);         opacity: 0.55; }
+.house .r2 { transform: translate(1.3px, -7.5px) scale(1.3);  opacity: 0.30; }
+
+@keyframes drift {
+  0%   { transform: translate(0, 0) scale(0.6);          opacity: 0; }
+  22%  {                                                 opacity: 0.55; }
+  70%  {                                                 opacity: 0.25; }
+  100% { transform: translate(2.5px, -15px) scale(1.65); opacity: 0; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
   }
+
+  .house .ring {
+    animation: drift 6s linear infinite;
+  }
+
+  .house .r2 { animation-delay: -3s; }
+}
+
+/* The QR panel, opened by the footer button. Same trick as the photos. */
+.panel {
+  display: none;
+  position: fixed;
+  inset: 0;
+  margin: 0;
+  padding: 1.5rem;
+  background-color: var(--bg);
+}
+
+.panel:target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.panel img {
+  display: block;
+  width: min(72vw, 60vh, 320px);
+  height: auto;
+}
+
+.panel p {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
 }
 
 .full a.close {
@@ -210,12 +302,12 @@ main > .plate:first-child {
     padding-right: 1.5rem;
   }
 
-  .full {
+  .full,
+  .panel {
     padding: 0.75rem;
   }
 
-  .top-link {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  header .start-here {
+    margin-top: 1.5rem;
   }
 }
