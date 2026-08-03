@@ -228,12 +228,18 @@ main > .plate:first-child {
   display: none;
 }
 
-/* The whole stand comes up together from a low start, eight pixels in eight
-   stages and back down again, so a cycle has sixteen distinct heights. A little
-   chaff lifts off it too, the same idea as the chimney smoke. */
+/* The stand is drawn once at full height and a veil the colour of the page
+   slides up off it, so the grain grows out of the fence line instead of being
+   lifted off its roots. Eleven rows, one at a time, and back down again. When
+   motion is off the veil just rests part way up, showing a grown stand. */
+.garden .veil {
+  fill: var(--bg);
+  transform: translateY(-8px);
+}
+
 @keyframes grow {
   0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-8px); }
+  50%      { transform: translateY(-11px); }
 }
 
 @keyframes lift {
@@ -380,7 +386,7 @@ footer .house {
 
   .house .r2 { animation-delay: -3s; }
 
-  .garden .stalks { animation: grow 14s steps(8) infinite; }
+  .garden .veil { animation: grow 14s steps(11) infinite; }
 
   .garden .motes rect { animation: lift 7s linear infinite; }
   .garden .m2 { animation-delay: -2.3s; }
