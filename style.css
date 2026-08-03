@@ -228,12 +228,12 @@ main > .plate:first-child {
   display: none;
 }
 
-/* The whole stand comes up together, four pixels in four stages and back down
-   again, so there are eight distinct heights in a cycle. A little chaff lifts
-   off it too, the same idea as the chimney smoke. */
+/* The whole stand comes up together from a low start, eight pixels in eight
+   stages and back down again, so a cycle has sixteen distinct heights. A little
+   chaff lifts off it too, the same idea as the chimney smoke. */
 @keyframes grow {
   0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-4px); }
+  50%      { transform: translateY(-8px); }
 }
 
 @keyframes lift {
@@ -380,7 +380,7 @@ footer .house {
 
   .house .r2 { animation-delay: -3s; }
 
-  .garden .stalks { animation: grow 9s steps(4) infinite; }
+  .garden .stalks { animation: grow 14s steps(8) infinite; }
 
   .garden .motes rect { animation: lift 7s linear infinite; }
   .garden .m2 { animation-delay: -2.3s; }
