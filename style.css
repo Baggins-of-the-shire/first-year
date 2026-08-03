@@ -272,9 +272,10 @@ footer {
 
 .panel:target {
   display: flex;
+  overflow-y: auto;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: safe center;
   gap: 1.25rem;
 }
 
@@ -321,9 +322,14 @@ footer {
   color: var(--text);
 }
 
-.prose strong {
-  font-weight: normal;
-  color: var(--accent);
+/* Small pictures of the buttons people are looking for, in their browser */
+.prose .glyph {
+  width: 1.05em;
+  height: 1.05em;
+  vertical-align: -0.17em;
+  margin: 0 0.1em;
+  fill: currentColor;
+  color: var(--text);
 }
 
 .prose a {
