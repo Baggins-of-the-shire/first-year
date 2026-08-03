@@ -228,12 +228,12 @@ main > .plate:first-child {
   display: none;
 }
 
-/* The stand grows. Each stalk lifts two pixels off its own base and settles,
-   in four bands, so the growing travels across the plot. A little chaff lifts
+/* The whole stand comes up together, four pixels in four stages and back down
+   again, so there are eight distinct heights in a cycle. A little chaff lifts
    off it too, the same idea as the chimney smoke. */
 @keyframes grow {
   0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-2px); }
+  50%      { transform: translateY(-4px); }
 }
 
 @keyframes lift {
@@ -380,10 +380,7 @@ footer .house {
 
   .house .r2 { animation-delay: -3s; }
 
-  .garden .stalks { animation: grow 4s steps(2) infinite; }
-  .garden .s1 { animation-delay: -1s; }
-  .garden .s2 { animation-delay: -2s; }
-  .garden .s3 { animation-delay: -3s; }
+  .garden .stalks { animation: grow 9s steps(4) infinite; }
 
   .garden .motes rect { animation: lift 7s linear infinite; }
   .garden .m2 { animation-delay: -2.3s; }
