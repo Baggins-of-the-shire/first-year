@@ -187,44 +187,61 @@ main > .plate:first-child {
   border-color: var(--accent);
 }
 
-/* Filters, tucked behind a disclosure so the top of the page stays quiet */
-.header-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0.75rem;
+/* A pair at the top: the garden opens the filters, the house is just the house */
+.start-here {
   margin: 1.75rem 0 0;
 }
 
-.filters summary {
+.invite {
+  max-width: 46ch;
+  margin: 3rem auto 0;
+  text-align: center;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.pair {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: clamp(1rem, 5vw, 3rem);
+}
+
+.pair .garden,
+.pair .house {
+  display: block;
+  width: clamp(116px, 32vw, 168px);
+  height: auto;
+}
+
+.garden-toggle summary {
+  display: block;
   list-style: none;
   cursor: pointer;
 }
 
-.filters summary::-webkit-details-marker {
+.garden-toggle summary::-webkit-details-marker {
   display: none;
 }
 
-.filters summary::after {
-  content: "\203A";
-  display: inline-block;
-  margin-left: 0.55em;
-  transform: rotate(90deg);
-}
-
-.filters[open] summary::after {
-  transform: rotate(-90deg);
-}
-
-.filters[open] {
-  flex-basis: 100%;
+/* Grain heads nod, in four bands, so the wind travels across the stand */
+@keyframes nod {
+  50% { transform: translateY(1px); }
 }
 
 .pills {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin: 1rem 0 0;
+  justify-content: center;
+  margin: 2rem 0 0;
+}
+
+body:has(.garden-toggle[open]) .pills {
+  display: flex;
 }
 
 .pill {
@@ -260,7 +277,8 @@ main > .plate:first-child {
   color: var(--text);
 }
 
-.filter-input:focus-visible + .pill {
+.filter-input:focus-visible + .pill,
+.garden-toggle summary:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
@@ -292,7 +310,7 @@ footer {
   margin-bottom: 1.75rem;
 }
 
-.house {
+footer .house {
   display: block;
   width: 192px;
   height: auto;
@@ -346,6 +364,11 @@ footer {
   }
 
   .house .r2 { animation-delay: -3s; }
+
+  .garden .stalks { animation: nod 3.2s steps(1) infinite; }
+  .garden .s1 { animation-delay: -0.8s; }
+  .garden .s2 { animation-delay: -1.6s; }
+  .garden .s3 { animation-delay: -2.4s; }
 }
 
 /* The QR panel, opened by the footer button. Same trick as the photos. */
@@ -458,7 +481,11 @@ footer {
     padding: 0.75rem;
   }
 
-  header .header-actions {
+  header .start-here {
     margin-top: 1.5rem;
+  }
+
+  header .invite {
+    margin-top: 2.25rem;
   }
 }
