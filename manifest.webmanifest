@@ -8,8 +8,49 @@
   "background_color": "#16130F",
   "theme_color": "#16130F",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start at the beginning",
+      "short_name": "The beginning",
+      "url": "./#deer-pair"
+    },
+    {
+      "name": "Show the QR code",
+      "short_name": "QR code",
+      "url": "./#qr"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-narrow.jpg",
+      "sizes": "390x844",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "The gallery on a phone"
+    },
+    {
+      "src": "screenshot-wide.jpg",
+      "sizes": "1280x800",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "The gallery on a computer"
+    }
   ]
 }
