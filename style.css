@@ -214,7 +214,7 @@ main > .plate:first-child {
 .pair .garden,
 .pair .house {
   display: block;
-  width: clamp(116px, 32vw, 168px);
+  width: 96px;
   height: auto;
 }
 
@@ -228,10 +228,12 @@ main > .plate:first-child {
   display: none;
 }
 
-/* Grain nods in four bands so the wind travels across the stand, and a
-   little chaff lifts off it, the same idea as the chimney smoke. */
-@keyframes nod {
-  50% { transform: translateY(1px); }
+/* The stand grows. Each stalk lifts two pixels off its own base and settles,
+   in four bands, so the growing travels across the plot. A little chaff lifts
+   off it too, the same idea as the chimney smoke. */
+@keyframes grow {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-2px); }
 }
 
 @keyframes lift {
@@ -378,10 +380,10 @@ footer .house {
 
   .house .r2 { animation-delay: -3s; }
 
-  .garden .stalks { animation: nod 2.4s steps(1) infinite; }
-  .garden .s1 { animation-delay: -0.6s; }
-  .garden .s2 { animation-delay: -1.2s; }
-  .garden .s3 { animation-delay: -1.8s; }
+  .garden .stalks { animation: grow 4s steps(2) infinite; }
+  .garden .s1 { animation-delay: -1s; }
+  .garden .s2 { animation-delay: -2s; }
+  .garden .s3 { animation-delay: -3s; }
 
   .garden .motes rect { animation: lift 7s linear infinite; }
   .garden .m2 { animation-delay: -2.3s; }
