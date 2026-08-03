@@ -1,5 +1,17 @@
 [
   {
+    "file": "images/2026-07-05-rabbit-pair.jpg",
+    "subject": "Two in clover",
+    "place": "the edge of the path",
+    "date": "",
+    "alt": "Two cottontails sit apart along a bank of blooming clover, one down among the blossoms and the other up at the edge of the paved path.",
+    "tags": [
+      "rabbits",
+      "path"
+    ],
+    "published": "2026-08-03"
+  },
+  {
     "file": "images/2026-08-02-fox-crossing.jpg",
     "subject": "Fox passing through",
     "place": "the paved path",
@@ -110,18 +122,6 @@
       "mushrooms"
     ],
     "published": "2026-07-05"
-  },
-  {
-    "file": "images/2026-07-05-rabbit-pair.jpg",
-    "subject": "Two in clover",
-    "place": "the edge of the path",
-    "date": "",
-    "alt": "Two cottontails sit apart along a bank of blooming clover, one down among the blossoms and the other up at the edge of the paved path.",
-    "tags": [
-      "rabbits",
-      "path"
-    ],
-    "published": "2026-08-03"
   },
   {
     "file": "images/2026-07-05-clover-rabbit.jpg",

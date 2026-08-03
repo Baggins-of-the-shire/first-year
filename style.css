@@ -242,17 +242,6 @@ main > .plate:first-child {
   50%      { transform: translateY(-11px); }
 }
 
-@keyframes lift {
-  0%   { transform: translate(0, 0);       opacity: 0; }
-  25%  {                                   opacity: 0.75; }
-  70%  {                                   opacity: 0.35; }
-  100% { transform: translate(2px, -11px); opacity: 0; }
-}
-
-.garden .m1 { opacity: 0.5; }
-.garden .m2 { transform: translate(1px, -4px); opacity: 0.35; }
-.garden .m3 { transform: translate(2px, -8px); opacity: 0.2; }
-
 .pills {
   display: none;
   flex-wrap: wrap;
@@ -388,9 +377,6 @@ footer .house {
 
   .garden .veil { animation: grow 14s steps(11) infinite; }
 
-  .garden .motes rect { animation: lift 7s linear infinite; }
-  .garden .m2 { animation-delay: -2.3s; }
-  .garden .m3 { animation-delay: -4.6s; }
 }
 
 /* The QR panel, opened by the footer button. Same trick as the photos. */

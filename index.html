@@ -14,7 +14,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="The Shire">
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body id="top">
 
@@ -141,11 +141,6 @@
       <rect x="2" y="41" width="27" height="1" fill="#362B1E"/>
       <rect x="2" y="42" width="27" height="1" fill="#362B1E"/>
       <rect class="veil" x="0" y="-4" width="32" height="39"/>
-      <g class="motes" fill="#D8D0BC">
-        <rect class="m1" x="9" y="21" width="1" height="1"/>
-        <rect class="m2" x="17" y="19" width="1" height="1"/>
-        <rect class="m3" x="24" y="22" width="1" height="1"/>
-      </g>
       <rect x="3" y="34" width="1" height="1" fill="#7A6248"/>
       <rect x="9" y="34" width="1" height="1" fill="#7A6248"/>
       <rect x="15" y="34" width="1" height="1" fill="#7A6248"/>
@@ -338,11 +333,23 @@
 
   <main>
 
+    <figure class="plate t-rabbits t-path" id="rabbit-pair">
+      <a class="zoom" href="#full-rabbit-pair" aria-label="View full size">
+        <img src="images/2026-07-05-rabbit-pair.jpg"
+             alt="Two cottontails sit apart along a bank of blooming clover, one down among the blossoms and the other up at the edge of the paved path."
+             width="1600" height="1200" loading="eager" decoding="async">
+      </a>
+      <figcaption>
+        <span class="subject">Two in clover</span>
+        <span class="place">the edge of the path</span>
+      </figcaption>
+    </figure>
+
     <figure class="plate t-passing t-path" id="fox-crossing">
       <a class="zoom" href="#full-fox-crossing" aria-label="View full size">
         <img src="images/2026-08-02-fox-crossing.jpg"
              alt="A red fox pauses mid-stride on the sunlit paved path, tail held straight behind, one ear cocked back toward the grass."
-             width="1315" height="742" loading="eager" decoding="async">
+             width="1315" height="742" loading="lazy" decoding="async">
       </a>
       <figcaption>
         <span class="subject">Fox passing through</span>
@@ -455,18 +462,6 @@
       <figcaption>
         <span class="subject">Shelves like stairs</span>
         <span class="place">a leaning trunk</span>
-      </figcaption>
-    </figure>
-
-    <figure class="plate t-rabbits t-path" id="rabbit-pair">
-      <a class="zoom" href="#full-rabbit-pair" aria-label="View full size">
-        <img src="images/2026-07-05-rabbit-pair.jpg"
-             alt="Two cottontails sit apart along a bank of blooming clover, one down among the blossoms and the other up at the edge of the paved path."
-             width="1600" height="1200" loading="lazy" decoding="async">
-      </a>
-      <figcaption>
-        <span class="subject">Two in clover</span>
-        <span class="place">the edge of the path</span>
       </figcaption>
     </figure>
 
@@ -761,11 +756,27 @@
     <!-- Full-screen views. Pure CSS: each opens when its id is the URL target;
          clicking the photo (or the browser Back button) returns to the gallery. -->
 
+    <figure class="full" id="full-rabbit-pair">
+      <a class="close-button" href="#rabbit-pair" aria-label="Close">&times;</a>
+      <a class="prev" href="#full-deer-pair" aria-label="Previous photo">&lsaquo;</a>
+      <a class="next" href="#full-fox-crossing" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">1 / 35</span>
+      <a class="close" href="#rabbit-pair" aria-label="Back to the gallery">
+        <img src="images/2026-07-05-rabbit-pair.jpg"
+             alt="Two cottontails sit apart along a bank of blooming clover, one down among the blossoms and the other up at the edge of the paved path."
+             width="1600" height="1200" loading="lazy" decoding="async">
+      </a>
+      <figcaption>
+        <span class="subject">Two in clover</span>
+        <span class="place">the edge of the path</span>
+      </figcaption>
+    </figure>
+
     <figure class="full" id="full-fox-crossing">
       <a class="close-button" href="#fox-crossing" aria-label="Close">&times;</a>
-      <a class="prev" href="#full-deer-pair" aria-label="Previous photo">&lsaquo;</a>
+      <a class="prev" href="#full-rabbit-pair" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-round-cap" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">1 / 35</span>
+      <span class="count">2 / 35</span>
       <a class="close" href="#fox-crossing" aria-label="Back to the gallery">
         <img src="images/2026-08-02-fox-crossing.jpg"
              alt="A red fox pauses mid-stride on the sunlit paved path, tail held straight behind, one ear cocked back toward the grass."
@@ -781,7 +792,7 @@
       <a class="close-button" href="#round-cap" aria-label="Close">&times;</a>
       <a class="prev" href="#full-fox-crossing" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-velvet-buck" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">2 / 35</span>
+      <span class="count">3 / 35</span>
       <a class="close" href="#round-cap" aria-label="Back to the gallery">
         <img src="images/2026-07-28-round-cap.jpg"
              alt="A single pale mushroom with a rounded, cobbled white cap stands on a tall stalk at the mossy foot of a furrowed trunk."
@@ -797,7 +808,7 @@
       <a class="close-button" href="#velvet-buck" aria-label="Close">&times;</a>
       <a class="prev" href="#full-round-cap" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-cat-on-steps" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">3 / 35</span>
+      <span class="count">4 / 35</span>
       <a class="close" href="#velvet-buck" aria-label="Back to the gallery">
         <img src="images/2026-07-14-velvet-buck.jpg"
              alt="A young buck with antlers still in velvet stands broadside in a sunlit lawn, watching the camera from the shade line."
@@ -813,7 +824,7 @@
       <a class="close-button" href="#cat-on-steps" aria-label="Close">&times;</a>
       <a class="prev" href="#full-velvet-buck" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-lit-path" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">4 / 35</span>
+      <span class="count">5 / 35</span>
       <a class="close" href="#cat-on-steps" aria-label="Back to the gallery">
         <img src="images/2026-07-13-cat-on-steps.jpg"
              alt="The grey cat sleeps stretched full-length along a weathered wooden step, one forepaw dangling over the edge."
@@ -829,7 +840,7 @@
       <a class="close-button" href="#lit-path" aria-label="Close">&times;</a>
       <a class="prev" href="#full-cat-on-steps" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-doe-in-creek" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">5 / 35</span>
+      <span class="count">6 / 35</span>
       <a class="close" href="#lit-path" aria-label="Back to the gallery">
         <img src="images/2026-07-12-lit-path.jpg"
              alt="Evening sun pours through the trees onto the paved path where it curves past a rock-lined creek bed edged with daylilies."
@@ -845,7 +856,7 @@
       <a class="close-button" href="#doe-in-creek" aria-label="Close">&times;</a>
       <a class="prev" href="#full-lit-path" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-colony-return" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">6 / 35</span>
+      <span class="count">7 / 35</span>
       <a class="close" href="#doe-in-creek" aria-label="Back to the gallery">
         <img src="images/2026-07-11-doe-in-creek.jpg"
              alt="A doe stands shin-deep in the shaded creek beside a tangle of flood-washed branches, pausing with her head turned upstream."
@@ -861,7 +872,7 @@
       <a class="close-button" href="#colony-return" aria-label="Close">&times;</a>
       <a class="prev" href="#full-doe-in-creek" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-backlit-rabbit" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">7 / 35</span>
+      <span class="count">8 / 35</span>
       <a class="close" href="#colony-return" aria-label="Back to the gallery">
         <img src="images/2026-07-08-colony-return.jpg"
              alt="Dense clumps of shaggy, scale-freckled white caps crowd shoulder to shoulder out of the dark rot of the old log."
@@ -877,7 +888,7 @@
       <a class="close-button" href="#backlit-rabbit" aria-label="Close">&times;</a>
       <a class="prev" href="#full-colony-return" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-squirrel-rabbit" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">8 / 35</span>
+      <span class="count">9 / 35</span>
       <a class="close" href="#backlit-rabbit" aria-label="Back to the gallery">
         <img src="images/2026-07-07-backlit-rabbit.jpg"
              alt="A cottontail sits up alert in the evening grass, the low sun glowing orange through its upright ears."
@@ -893,7 +904,7 @@
       <a class="close-button" href="#squirrel-rabbit" aria-label="Close">&times;</a>
       <a class="prev" href="#full-backlit-rabbit" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-stacked-shelves" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">9 / 35</span>
+      <span class="count">10 / 35</span>
       <a class="close" href="#squirrel-rabbit" aria-label="Back to the gallery">
         <img src="images/2026-07-07-squirrel-rabbit.jpg"
              alt="A fox squirrel crouches in a patch of sun while a rabbit grazes behind it at the shaded fence line."
@@ -908,8 +919,8 @@
     <figure class="full" id="full-stacked-shelves">
       <a class="close-button" href="#stacked-shelves" aria-label="Close">&times;</a>
       <a class="prev" href="#full-squirrel-rabbit" aria-label="Previous photo">&lsaquo;</a>
-      <a class="next" href="#full-rabbit-pair" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">10 / 35</span>
+      <a class="next" href="#full-clover-rabbit" aria-label="Next photo">&rsaquo;</a>
+      <span class="count">11 / 35</span>
       <a class="close" href="#stacked-shelves" aria-label="Back to the gallery">
         <img src="images/2026-07-05-stacked-shelves.jpg"
              alt="Cream shelf fungus with ruffled amber edges juts out in tiers up a leaning trunk, like stair treads below the broken snag."
@@ -921,25 +932,9 @@
       </figcaption>
     </figure>
 
-    <figure class="full" id="full-rabbit-pair">
-      <a class="close-button" href="#rabbit-pair" aria-label="Close">&times;</a>
-      <a class="prev" href="#full-stacked-shelves" aria-label="Previous photo">&lsaquo;</a>
-      <a class="next" href="#full-clover-rabbit" aria-label="Next photo">&rsaquo;</a>
-      <span class="count">11 / 35</span>
-      <a class="close" href="#rabbit-pair" aria-label="Back to the gallery">
-        <img src="images/2026-07-05-rabbit-pair.jpg"
-             alt="Two cottontails sit apart along a bank of blooming clover, one down among the blossoms and the other up at the edge of the paved path."
-             width="1600" height="1200" loading="lazy" decoding="async">
-      </a>
-      <figcaption>
-        <span class="subject">Two in clover</span>
-        <span class="place">the edge of the path</span>
-      </figcaption>
-    </figure>
-
     <figure class="full" id="full-clover-rabbit">
       <a class="close-button" href="#clover-rabbit" aria-label="Close">&times;</a>
-      <a class="prev" href="#full-rabbit-pair" aria-label="Previous photo">&lsaquo;</a>
+      <a class="prev" href="#full-stacked-shelves" aria-label="Previous photo">&lsaquo;</a>
       <a class="next" href="#full-young-rabbit" aria-label="Next photo">&rsaquo;</a>
       <span class="count">12 / 35</span>
       <a class="close" href="#clover-rabbit" aria-label="Back to the gallery">
@@ -1308,7 +1303,7 @@
     <figure class="full" id="full-deer-pair">
       <a class="close-button" href="#deer-pair" aria-label="Close">&times;</a>
       <a class="prev" href="#full-pink-button" aria-label="Previous photo">&lsaquo;</a>
-      <a class="next" href="#full-fox-crossing" aria-label="Next photo">&rsaquo;</a>
+      <a class="next" href="#full-rabbit-pair" aria-label="Next photo">&rsaquo;</a>
       <span class="count">35 / 35</span>
       <a class="close" href="#deer-pair" aria-label="Back to the gallery">
         <img src="images/2026-04-11-deer-pair.jpg"
