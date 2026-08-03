@@ -187,9 +187,97 @@ main > .plate:first-child {
   border-color: var(--accent);
 }
 
-.start-here {
+/* Filters, tucked behind a disclosure so the top of the page stays quiet */
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.75rem;
   margin: 1.75rem 0 0;
 }
+
+.filters summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.filters summary::-webkit-details-marker {
+  display: none;
+}
+
+.filters summary::after {
+  content: "\203A";
+  display: inline-block;
+  margin-left: 0.55em;
+  transform: rotate(90deg);
+}
+
+.filters[open] summary::after {
+  transform: rotate(-90deg);
+}
+
+.filters[open] {
+  flex-basis: 100%;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 0;
+}
+
+.pill {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: none;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.pill .mark {
+  margin-right: 0.45em;
+  font-size: 0.9em;
+}
+
+.filter-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.filter-input:checked + .pill {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.filter-input:focus-visible + .pill {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* The filtering itself: hide everything once any box is on, then bring back
+   the kinds that are on. Nothing checked means nothing hidden. */
+body:has(.filter-input:checked) .plate {
+  display: none;
+}
+
+body:has(#f-mushrooms:checked) .plate.t-mushrooms { display: block; }
+body:has(#f-deer:checked) .plate.t-deer { display: block; }
+body:has(#f-rabbits:checked) .plate.t-rabbits { display: block; }
+body:has(#f-birds:checked) .plate.t-birds { display: block; }
+body:has(#f-cats:checked) .plate.t-cats { display: block; }
+body:has(#f-passing:checked) .plate.t-passing { display: block; }
+body:has(#f-path:checked) .plate.t-path { display: block; }
 
 /* The end of the walk */
 footer {
@@ -370,7 +458,7 @@ footer {
     padding: 0.75rem;
   }
 
-  header .start-here {
+  header .header-actions {
     margin-top: 1.5rem;
   }
 }

@@ -4,237 +4,344 @@
     "subject": "Fox passing through",
     "place": "the paved path",
     "date": "",
-    "alt": "A red fox pauses mid-stride on the sunlit paved path, tail held straight behind, one ear cocked back toward the grass."
+    "alt": "A red fox pauses mid-stride on the sunlit paved path, tail held straight behind, one ear cocked back toward the grass.",
+    "tags": [
+      "passing",
+      "path"
+    ]
   },
   {
     "file": "images/2026-07-28-round-cap.jpg",
     "subject": "Lone cobbled cap",
     "place": "the mossy tree base",
     "date": "",
-    "alt": "A single pale mushroom with a rounded, cobbled white cap stands on a tall stalk at the mossy foot of a furrowed trunk."
+    "alt": "A single pale mushroom with a rounded, cobbled white cap stands on a tall stalk at the mossy foot of a furrowed trunk.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-07-14-velvet-buck.jpg",
     "subject": "Buck in velvet",
     "place": "the sunny lawn edge",
     "date": "",
-    "alt": "A young buck with antlers still in velvet stands broadside in a sunlit lawn, watching the camera from the shade line."
+    "alt": "A young buck with antlers still in velvet stands broadside in a sunlit lawn, watching the camera from the shade line.",
+    "tags": [
+      "deer"
+    ]
   },
   {
     "file": "images/2026-07-13-cat-on-steps.jpg",
     "subject": "Cat off duty",
     "place": "the old wooden steps",
     "date": "",
-    "alt": "The grey cat sleeps stretched full-length along a weathered wooden step, one forepaw dangling over the edge."
+    "alt": "The grey cat sleeps stretched full-length along a weathered wooden step, one forepaw dangling over the edge.",
+    "tags": [
+      "cats"
+    ]
   },
   {
     "file": "images/2026-07-12-lit-path.jpg",
     "subject": "The lit path",
     "place": "past the creek bed",
     "date": "",
-    "alt": "Evening sun pours through the trees onto the paved path where it curves past a rock-lined creek bed edged with daylilies."
+    "alt": "Evening sun pours through the trees onto the paved path where it curves past a rock-lined creek bed edged with daylilies.",
+    "tags": [
+      "path"
+    ]
   },
   {
     "file": "images/2026-07-11-doe-in-creek.jpg",
     "subject": "Doe gone wading",
     "place": "the shaded creek",
     "date": "",
-    "alt": "A doe stands shin-deep in the shaded creek beside a tangle of flood-washed branches, pausing with her head turned upstream."
+    "alt": "A doe stands shin-deep in the shaded creek beside a tangle of flood-washed branches, pausing with her head turned upstream.",
+    "tags": [
+      "deer"
+    ]
   },
   {
     "file": "images/2026-07-08-colony-return.jpg",
     "subject": "The colony returns",
     "place": "the rotting log again",
     "date": "",
-    "alt": "Dense clumps of shaggy, scale-freckled white caps crowd shoulder to shoulder out of the dark rot of the old log."
+    "alt": "Dense clumps of shaggy, scale-freckled white caps crowd shoulder to shoulder out of the dark rot of the old log.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-07-07-backlit-rabbit.jpg",
     "subject": "Sun through ears",
     "place": "the evening lawn",
     "date": "",
-    "alt": "A cottontail sits up alert in the evening grass, the low sun glowing orange through its upright ears."
+    "alt": "A cottontail sits up alert in the evening grass, the low sun glowing orange through its upright ears.",
+    "tags": [
+      "rabbits"
+    ]
   },
   {
     "file": "images/2026-07-07-squirrel-rabbit.jpg",
     "subject": "Squirrel and rabbit",
     "place": "the back fence line",
     "date": "",
-    "alt": "A fox squirrel crouches in a patch of sun while a rabbit grazes behind it at the shaded fence line."
+    "alt": "A fox squirrel crouches in a patch of sun while a rabbit grazes behind it at the shaded fence line.",
+    "tags": [
+      "rabbits",
+      "passing"
+    ]
   },
   {
     "file": "images/2026-07-05-stacked-shelves.jpg",
     "subject": "Shelves like stairs",
     "place": "a leaning trunk",
     "date": "",
-    "alt": "Cream shelf fungus with ruffled amber edges juts out in tiers up a leaning trunk, like stair treads below the broken snag."
+    "alt": "Cream shelf fungus with ruffled amber edges juts out in tiers up a leaning trunk, like stair treads below the broken snag.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-07-05-clover-rabbit.jpg",
     "subject": "Rabbit in bloom",
     "place": "the clover patch",
     "date": "",
-    "alt": "A rabbit sits chest-deep in blooming white clover with one ear up and the other folded flat."
+    "alt": "A rabbit sits chest-deep in blooming white clover with one ear up and the other folded flat.",
+    "tags": [
+      "rabbits"
+    ]
   },
   {
     "file": "images/2026-07-05-young-rabbit.jpg",
     "subject": "Young rabbit, watching",
     "place": "the river rocks",
     "date": "",
-    "alt": "A young cottontail crouches on smooth river stones at the garden's edge, dark eye level with the camera."
+    "alt": "A young cottontail crouches on smooth river stones at the garden's edge, dark eye level with the camera.",
+    "tags": [
+      "rabbits"
+    ]
   },
   {
     "file": "images/2026-07-04-bedded-buck.jpg",
     "subject": "Buck at rest",
     "place": "against the tall growth",
     "date": "",
-    "alt": "A velvet-antlered buck lies folded in the grass against a wall of tall summer growth, ears turned to the camera."
+    "alt": "A velvet-antlered buck lies folded in the grass against a wall of tall summer growth, ears turned to the camera.",
+    "tags": [
+      "deer"
+    ]
   },
   {
     "file": "images/2026-07-01-owl-at-dusk.jpg",
     "subject": "Owl at dusk",
     "place": "a bare high branch",
     "date": "",
-    "alt": "A barred owl perches on a bare branch against the violet evening sky, round face turned straight down toward the lens."
+    "alt": "A barred owl perches on a bare branch against the violet evening sky, round face turned straight down toward the lens.",
+    "tags": [
+      "birds"
+    ]
   },
   {
     "file": "images/2026-06-26-young-owl.jpg",
     "subject": "The young owl",
     "place": "a heavy old limb",
     "date": "",
-    "alt": "A fluffy young owl grips a wide, dark limb high in the canopy, staring down with black eyes."
+    "alt": "A fluffy young owl grips a wide, dark limb high in the canopy, staring down with black eyes.",
+    "tags": [
+      "birds"
+    ]
   },
   {
     "file": "images/2026-06-25-mallards-pond.jpg",
     "subject": "Mallard pair resting",
     "place": "the pond bank",
     "date": "",
-    "alt": "A mallard drake and hen rest in the grass at the edge of a pond, the dark water behind them speckled with floating seed fluff."
+    "alt": "A mallard drake and hen rest in the grass at the edge of a pond, the dark water behind them speckled with floating seed fluff.",
+    "tags": [
+      "birds"
+    ]
   },
   {
     "file": "images/2026-06-24-tan-caps.jpg",
     "subject": "Thumb-high tan caps",
     "place": "old leaves at the wood’s edge",
     "date": "",
-    "alt": "Three small tan mushrooms with striated bell caps push out of dark leaf litter, lit from behind by out-of-focus orange leaves."
+    "alt": "Three small tan mushrooms with striated bell caps push out of dark leaf litter, lit from behind by out-of-focus orange leaves.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-23-white-colony-wide.jpg",
     "subject": "Shaggy white colony",
     "place": "a rotting log",
     "date": "",
-    "alt": "Dozens of shaggy white oval caps crowd along both sides of a fallen branch on a rotting log, ringed by wet green undergrowth."
+    "alt": "Dozens of shaggy white oval caps crowd along both sides of a fallen branch on a rotting log, ringed by wet green undergrowth.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-23-white-colony-log.jpg",
     "subject": "Same colony, closer",
     "place": "the rotting log",
     "date": "",
-    "alt": "A mass of shaggy, scale-flecked white mushrooms in every size pushes up around a bare fallen branch lying across decayed wood."
+    "alt": "A mass of shaggy, scale-flecked white mushrooms in every size pushes up around a bare fallen branch lying across decayed wood.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-21-lawn-cap.jpg",
     "subject": "One cream cap",
     "place": "mowed grass by the rock bed",
     "date": "",
-    "alt": "A single cream-colored mushroom with a flattened, faintly cracked cap stands in mowed grass in front of a strip of river-rock landscaping."
+    "alt": "A single cream-colored mushroom with a flattened, faintly cracked cap stands in mowed grass in front of a strip of river-rock landscaping.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-17-caps-violets.jpg",
     "subject": "Two rain-flecked caps",
     "place": "a lawn on the backside of a hill",
     "date": "",
-    "alt": "Two pale mushrooms with upturned, rain-flecked caps rise from a patch of lawn at the bottom of a gentle slope that made a great home for this colony."
+    "alt": "Two pale mushrooms with upturned, rain-flecked caps rise from a patch of lawn at the bottom of a gentle slope that made a great home for this colony.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-14-flat-caps.jpg",
     "subject": "Broad twin caps",
     "place": "grass along the walking path",
     "date": "",
-    "alt": "Two broad cream caps, their edges just touching, spread over dark grass with a blurred tree trunk and walking path behind them."
+    "alt": "Two broad cream caps, their edges just touching, spread over dark grass with a blurred tree trunk and walking path behind them.",
+    "tags": [
+      "mushrooms",
+      "path"
+    ]
   },
   {
     "file": "images/2026-06-13-button-pair.jpg",
     "subject": "White buttons leaning",
     "place": "deep lawn grass",
     "date": "",
-    "alt": "Two rounded white caps tinged tan at their crowns nestle side by side in deep green grass, one leaning against the other."
+    "alt": "Two rounded white caps tinged tan at their crowns nestle side by side in deep green grass, one leaning against the other.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-11-golden-shelves.jpg",
     "subject": "Golden shelf fungus",
     "place": "an old furrowed trunk",
     "date": "",
-    "alt": "Ruffled golden shelf fungus sprouts at three heights up a deeply furrowed tree trunk, backlit by green canopy and a scrap of blue sky."
+    "alt": "Ruffled golden shelf fungus sprouts at three heights up a deeply furrowed tree trunk, backlit by green canopy and a scrap of blue sky.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-11-lawn-cluster.jpg",
     "subject": "Cluster with company",
     "place": "the wet clover lawn",
     "date": "",
-    "alt": "A cluster of flat tan mushrooms sits in wet clover-studded grass while a loose line of white-stemmed caps recedes up the slope behind."
+    "alt": "A cluster of flat tan mushrooms sits in wet clover-studded grass while a loose line of white-stemmed caps recedes up the slope behind.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-11-lawn-trio.jpg",
     "subject": "Three after rain",
     "place": "grass and clover",
     "date": "",
-    "alt": "Three cream mushrooms with wavy, rain-spotted caps stand at different heights in glistening grass and clover."
+    "alt": "Three cream mushrooms with wavy, rain-spotted caps stand at different heights in glistening grass and clover.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-10-cap-under-leaf.jpg",
     "subject": "Cap under leaf",
     "place": "among twigs and dry stems",
     "date": "",
-    "alt": "A small white mushroom shelters beneath a fallen green leaf that rests on its cap like an awning, among twigs and dry stems."
+    "alt": "A small white mushroom shelters beneath a fallen green leaf that rests on its cap like an awning, among twigs and dry stems.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-10-woodland-shelves.jpg",
     "subject": "Pale shelf fungus",
     "place": "the little wood",
     "date": "",
-    "alt": "Pale yellow shelf fungus fans out from the base of a leaning trunk in a stand of trees, above a floor of knee-high undergrowth."
+    "alt": "Pale yellow shelf fungus fans out from the base of a leaning trunk in a stand of trees, above a floor of knee-high undergrowth.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-06-07-mallards-grass.jpg",
     "subject": "Mallards out walking",
     "place": "wet grass by the rail fence",
     "date": "",
-    "alt": "A mallard drake and hen walk through tall wet grass beside a leaf-scattered asphalt path, with a low wooden rail fence behind."
+    "alt": "A mallard drake and hen walk through tall wet grass beside a leaf-scattered asphalt path, with a low wooden rail fence behind.",
+    "tags": [
+      "birds",
+      "path"
+    ]
   },
   {
     "file": "images/2026-06-07-pink-cluster.jpg",
     "subject": "Pleated pink caps",
     "place": "the lawn’s edge by the iris bed",
     "date": "",
-    "alt": "Half a dozen delicate pinkish-tan mushrooms with pleated caps stand in mown grass at the edge of a mulched bed of iris leaves."
+    "alt": "Half a dozen delicate pinkish-tan mushrooms with pleated caps stand in mown grass at the edge of a mulched bed of iris leaves.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-05-31-tiny-grey-cap.jpg",
     "subject": "Coin-sized grey cap",
     "place": "down in the lawn grass",
     "date": "",
-    "alt": "A single small grey-white mushroom hides low in a tangle of thick wet lawn grass, a blade bending across its cap."
+    "alt": "A single small grey-white mushroom hides low in a tangle of thick wet lawn grass, a blade bending across its cap.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-05-31-grey-cat.jpg",
     "subject": "Cat on patrol",
     "place": "the wet undergrowth",
     "date": "",
-    "alt": "A grey cat with amber eyes sits among rain-soaked leaves and deadfall, looking back over its shoulder at the camera."
+    "alt": "A grey cat with amber eyes sits among rain-soaked leaves and deadfall, looking back over its shoulder at the camera.",
+    "tags": [
+      "cats"
+    ]
   },
   {
     "file": "images/2026-05-30-pink-button.jpg",
     "subject": "Pink button cap",
     "place": "rain-soaked grass",
     "date": "",
-    "alt": "A pink-tinged button mushroom on a slender stalk stands in wet grass beside a long yellow leaf caught in the blades."
+    "alt": "A pink-tinged button mushroom on a slender stalk stands in wet grass beside a long yellow leaf caught in the blades.",
+    "tags": [
+      "mushrooms"
+    ]
   },
   {
     "file": "images/2026-04-11-deer-pair.jpg",
     "subject": "Two unhurried deer",
     "place": "beside the paved trail",
     "date": "",
-    "alt": "Two white-tailed deer pause on spring grass beside a curving paved trail, the nearer one facing the camera with ears spread wide."
+    "alt": "Two white-tailed deer pause on spring grass beside a curving paved trail, the nearer one facing the camera with ears spread wide.",
+    "tags": [
+      "deer",
+      "path"
+    ]
   }
 ]

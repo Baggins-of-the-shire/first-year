@@ -21,12 +21,30 @@
   <header>
     <h1>First Year</h1>
     <p>My wife and I call our neighborhood the Shire, and most days it earns the name. This is the record of my first year of walking it slowly, pond bank to wood edge to back lawn, and stooping to see what’s come up overnight. Most of it is small: mushrooms the size of a shirt button, shelf fungus climbing a trunk like stairs. If you go out with a little intention, something is always growing, even in a mowed yard.</p>
-    <p class="start-here"><a class="button" href="#deer-pair">See the first photos from the Shire</a></p>
+    <div class="header-actions">
+      <a class="button" href="#deer-pair">See the first photos from the Shire</a>
+
+      <!-- Filters. Checkboxes plus :has(), so it stays pure CSS and the
+           choices survive opening a photo or collapsing this panel. -->
+      <details class="filters">
+        <summary class="button">Filters</summary>
+        <form class="pills">
+          <button type="reset" class="pill reset">All</button>
+          <input type="checkbox" id="f-mushrooms" class="filter-input"><label class="pill" for="f-mushrooms"><span class="mark">🍄</span>Mushrooms</label>
+          <input type="checkbox" id="f-deer" class="filter-input"><label class="pill" for="f-deer"><span class="mark">🦌</span>Deer</label>
+          <input type="checkbox" id="f-rabbits" class="filter-input"><label class="pill" for="f-rabbits"><span class="mark">🐇</span>Rabbits</label>
+          <input type="checkbox" id="f-birds" class="filter-input"><label class="pill" for="f-birds"><span class="mark">🪶</span>Birds</label>
+          <input type="checkbox" id="f-cats" class="filter-input"><label class="pill" for="f-cats"><span class="mark">🐈</span>Cats</label>
+          <input type="checkbox" id="f-passing" class="filter-input"><label class="pill" for="f-passing"><span class="mark">🦊</span>Just passing</label>
+          <input type="checkbox" id="f-path" class="filter-input"><label class="pill" for="f-path"><span class="mark">🌿</span>The path</label>
+        </form>
+      </details>
+    </div>
   </header>
 
   <main>
 
-    <figure class="plate" id="fox-crossing">
+    <figure class="plate t-passing t-path" id="fox-crossing">
       <a class="zoom" href="#full-fox-crossing" aria-label="View full size">
         <img src="images/2026-08-02-fox-crossing.jpg"
              alt="A red fox pauses mid-stride on the sunlit paved path, tail held straight behind, one ear cocked back toward the grass."
@@ -38,7 +56,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="round-cap">
+    <figure class="plate t-mushrooms" id="round-cap">
       <a class="zoom" href="#full-round-cap" aria-label="View full size">
         <img src="images/2026-07-28-round-cap.jpg"
              alt="A single pale mushroom with a rounded, cobbled white cap stands on a tall stalk at the mossy foot of a furrowed trunk."
@@ -50,7 +68,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="velvet-buck">
+    <figure class="plate t-deer" id="velvet-buck">
       <a class="zoom" href="#full-velvet-buck" aria-label="View full size">
         <img src="images/2026-07-14-velvet-buck.jpg"
              alt="A young buck with antlers still in velvet stands broadside in a sunlit lawn, watching the camera from the shade line."
@@ -62,7 +80,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="cat-on-steps">
+    <figure class="plate t-cats" id="cat-on-steps">
       <a class="zoom" href="#full-cat-on-steps" aria-label="View full size">
         <img src="images/2026-07-13-cat-on-steps.jpg"
              alt="The grey cat sleeps stretched full-length along a weathered wooden step, one forepaw dangling over the edge."
@@ -74,7 +92,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="lit-path">
+    <figure class="plate t-path" id="lit-path">
       <a class="zoom" href="#full-lit-path" aria-label="View full size">
         <img src="images/2026-07-12-lit-path.jpg"
              alt="Evening sun pours through the trees onto the paved path where it curves past a rock-lined creek bed edged with daylilies."
@@ -86,7 +104,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="doe-in-creek">
+    <figure class="plate t-deer" id="doe-in-creek">
       <a class="zoom" href="#full-doe-in-creek" aria-label="View full size">
         <img src="images/2026-07-11-doe-in-creek.jpg"
              alt="A doe stands shin-deep in the shaded creek beside a tangle of flood-washed branches, pausing with her head turned upstream."
@@ -98,7 +116,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="colony-return">
+    <figure class="plate t-mushrooms" id="colony-return">
       <a class="zoom" href="#full-colony-return" aria-label="View full size">
         <img src="images/2026-07-08-colony-return.jpg"
              alt="Dense clumps of shaggy, scale-freckled white caps crowd shoulder to shoulder out of the dark rot of the old log."
@@ -110,7 +128,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="backlit-rabbit">
+    <figure class="plate t-rabbits" id="backlit-rabbit">
       <a class="zoom" href="#full-backlit-rabbit" aria-label="View full size">
         <img src="images/2026-07-07-backlit-rabbit.jpg"
              alt="A cottontail sits up alert in the evening grass, the low sun glowing orange through its upright ears."
@@ -122,7 +140,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="squirrel-rabbit">
+    <figure class="plate t-rabbits t-passing" id="squirrel-rabbit">
       <a class="zoom" href="#full-squirrel-rabbit" aria-label="View full size">
         <img src="images/2026-07-07-squirrel-rabbit.jpg"
              alt="A fox squirrel crouches in a patch of sun while a rabbit grazes behind it at the shaded fence line."
@@ -134,7 +152,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="stacked-shelves">
+    <figure class="plate t-mushrooms" id="stacked-shelves">
       <a class="zoom" href="#full-stacked-shelves" aria-label="View full size">
         <img src="images/2026-07-05-stacked-shelves.jpg"
              alt="Cream shelf fungus with ruffled amber edges juts out in tiers up a leaning trunk, like stair treads below the broken snag."
@@ -146,7 +164,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="clover-rabbit">
+    <figure class="plate t-rabbits" id="clover-rabbit">
       <a class="zoom" href="#full-clover-rabbit" aria-label="View full size">
         <img src="images/2026-07-05-clover-rabbit.jpg"
              alt="A rabbit sits chest-deep in blooming white clover with one ear up and the other folded flat."
@@ -158,7 +176,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="young-rabbit">
+    <figure class="plate t-rabbits" id="young-rabbit">
       <a class="zoom" href="#full-young-rabbit" aria-label="View full size">
         <img src="images/2026-07-05-young-rabbit.jpg"
              alt="A young cottontail crouches on smooth river stones at the garden's edge, dark eye level with the camera."
@@ -170,7 +188,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="bedded-buck">
+    <figure class="plate t-deer" id="bedded-buck">
       <a class="zoom" href="#full-bedded-buck" aria-label="View full size">
         <img src="images/2026-07-04-bedded-buck.jpg"
              alt="A velvet-antlered buck lies folded in the grass against a wall of tall summer growth, ears turned to the camera."
@@ -182,7 +200,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="owl-at-dusk">
+    <figure class="plate t-birds" id="owl-at-dusk">
       <a class="zoom" href="#full-owl-at-dusk" aria-label="View full size">
         <img src="images/2026-07-01-owl-at-dusk.jpg"
              alt="A barred owl perches on a bare branch against the violet evening sky, round face turned straight down toward the lens."
@@ -194,7 +212,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="young-owl">
+    <figure class="plate t-birds" id="young-owl">
       <a class="zoom" href="#full-young-owl" aria-label="View full size">
         <img src="images/2026-06-26-young-owl.jpg"
              alt="A fluffy young owl grips a wide, dark limb high in the canopy, staring down with black eyes."
@@ -206,7 +224,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="mallards-pond">
+    <figure class="plate t-birds" id="mallards-pond">
       <a class="zoom" href="#full-mallards-pond" aria-label="View full size">
         <img src="images/2026-06-25-mallards-pond.jpg"
              alt="A mallard drake and hen rest in the grass at the edge of a pond, the dark water behind them speckled with floating seed fluff."
@@ -218,7 +236,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="tan-caps">
+    <figure class="plate t-mushrooms" id="tan-caps">
       <a class="zoom" href="#full-tan-caps" aria-label="View full size">
         <img src="images/2026-06-24-tan-caps.jpg"
              alt="Three small tan mushrooms with striated bell caps push out of dark leaf litter, lit from behind by out-of-focus orange leaves."
@@ -230,7 +248,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="white-colony-wide">
+    <figure class="plate t-mushrooms" id="white-colony-wide">
       <a class="zoom" href="#full-white-colony-wide" aria-label="View full size">
         <img src="images/2026-06-23-white-colony-wide.jpg"
              alt="Dozens of shaggy white oval caps crowd along both sides of a fallen branch on a rotting log, ringed by wet green undergrowth."
@@ -242,7 +260,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="white-colony-log">
+    <figure class="plate t-mushrooms" id="white-colony-log">
       <a class="zoom" href="#full-white-colony-log" aria-label="View full size">
         <img src="images/2026-06-23-white-colony-log.jpg"
              alt="A mass of shaggy, scale-flecked white mushrooms in every size pushes up around a bare fallen branch lying across decayed wood."
@@ -254,7 +272,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="lawn-cap">
+    <figure class="plate t-mushrooms" id="lawn-cap">
       <a class="zoom" href="#full-lawn-cap" aria-label="View full size">
         <img src="images/2026-06-21-lawn-cap.jpg"
              alt="A single cream-colored mushroom with a flattened, faintly cracked cap stands in mowed grass in front of a strip of river-rock landscaping."
@@ -266,7 +284,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="caps-violets">
+    <figure class="plate t-mushrooms" id="caps-violets">
       <a class="zoom" href="#full-caps-violets" aria-label="View full size">
         <img src="images/2026-06-17-caps-violets.jpg"
              alt="Two pale mushrooms with upturned, rain-flecked caps rise from a patch of lawn at the bottom of a gentle slope that made a great home for this colony."
@@ -278,7 +296,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="flat-caps">
+    <figure class="plate t-mushrooms t-path" id="flat-caps">
       <a class="zoom" href="#full-flat-caps" aria-label="View full size">
         <img src="images/2026-06-14-flat-caps.jpg"
              alt="Two broad cream caps, their edges just touching, spread over dark grass with a blurred tree trunk and walking path behind them."
@@ -290,7 +308,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="button-pair">
+    <figure class="plate t-mushrooms" id="button-pair">
       <a class="zoom" href="#full-button-pair" aria-label="View full size">
         <img src="images/2026-06-13-button-pair.jpg"
              alt="Two rounded white caps tinged tan at their crowns nestle side by side in deep green grass, one leaning against the other."
@@ -302,7 +320,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="golden-shelves">
+    <figure class="plate t-mushrooms" id="golden-shelves">
       <a class="zoom" href="#full-golden-shelves" aria-label="View full size">
         <img src="images/2026-06-11-golden-shelves.jpg"
              alt="Ruffled golden shelf fungus sprouts at three heights up a deeply furrowed tree trunk, backlit by green canopy and a scrap of blue sky."
@@ -314,7 +332,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="lawn-cluster">
+    <figure class="plate t-mushrooms" id="lawn-cluster">
       <a class="zoom" href="#full-lawn-cluster" aria-label="View full size">
         <img src="images/2026-06-11-lawn-cluster.jpg"
              alt="A cluster of flat tan mushrooms sits in wet clover-studded grass while a loose line of white-stemmed caps recedes up the slope behind."
@@ -326,7 +344,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="lawn-trio">
+    <figure class="plate t-mushrooms" id="lawn-trio">
       <a class="zoom" href="#full-lawn-trio" aria-label="View full size">
         <img src="images/2026-06-11-lawn-trio.jpg"
              alt="Three cream mushrooms with wavy, rain-spotted caps stand at different heights in glistening grass and clover."
@@ -338,7 +356,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="cap-under-leaf">
+    <figure class="plate t-mushrooms" id="cap-under-leaf">
       <a class="zoom" href="#full-cap-under-leaf" aria-label="View full size">
         <img src="images/2026-06-10-cap-under-leaf.jpg"
              alt="A small white mushroom shelters beneath a fallen green leaf that rests on its cap like an awning, among twigs and dry stems."
@@ -350,7 +368,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="woodland-shelves">
+    <figure class="plate t-mushrooms" id="woodland-shelves">
       <a class="zoom" href="#full-woodland-shelves" aria-label="View full size">
         <img src="images/2026-06-10-woodland-shelves.jpg"
              alt="Pale yellow shelf fungus fans out from the base of a leaning trunk in a stand of trees, above a floor of knee-high undergrowth."
@@ -362,7 +380,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="mallards-grass">
+    <figure class="plate t-birds t-path" id="mallards-grass">
       <a class="zoom" href="#full-mallards-grass" aria-label="View full size">
         <img src="images/2026-06-07-mallards-grass.jpg"
              alt="A mallard drake and hen walk through tall wet grass beside a leaf-scattered asphalt path, with a low wooden rail fence behind."
@@ -374,7 +392,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="pink-cluster">
+    <figure class="plate t-mushrooms" id="pink-cluster">
       <a class="zoom" href="#full-pink-cluster" aria-label="View full size">
         <img src="images/2026-06-07-pink-cluster.jpg"
              alt="Half a dozen delicate pinkish-tan mushrooms with pleated caps stand in mown grass at the edge of a mulched bed of iris leaves."
@@ -386,7 +404,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="tiny-grey-cap">
+    <figure class="plate t-mushrooms" id="tiny-grey-cap">
       <a class="zoom" href="#full-tiny-grey-cap" aria-label="View full size">
         <img src="images/2026-05-31-tiny-grey-cap.jpg"
              alt="A single small grey-white mushroom hides low in a tangle of thick wet lawn grass, a blade bending across its cap."
@@ -398,7 +416,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="grey-cat">
+    <figure class="plate t-cats" id="grey-cat">
       <a class="zoom" href="#full-grey-cat" aria-label="View full size">
         <img src="images/2026-05-31-grey-cat.jpg"
              alt="A grey cat with amber eyes sits among rain-soaked leaves and deadfall, looking back over its shoulder at the camera."
@@ -410,7 +428,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="pink-button">
+    <figure class="plate t-mushrooms" id="pink-button">
       <a class="zoom" href="#full-pink-button" aria-label="View full size">
         <img src="images/2026-05-30-pink-button.jpg"
              alt="A pink-tinged button mushroom on a slender stalk stands in wet grass beside a long yellow leaf caught in the blades."
@@ -422,7 +440,7 @@
       </figcaption>
     </figure>
 
-    <figure class="plate" id="deer-pair">
+    <figure class="plate t-deer t-path" id="deer-pair">
       <a class="zoom" href="#full-deer-pair" aria-label="View full size">
         <img src="images/2026-04-11-deer-pair.jpg"
              alt="Two white-tailed deer pause on spring grass beside a curving paved trail, the nearer one facing the camera with ears spread wide."
