@@ -6,7 +6,16 @@
     <atom:link href="https://baggins-of-the-shire.github.io/first-year/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Mushrooms and wildlife from a year of walking one neighborhood slowly.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Turning to ink</title>
+      <link>https://baggins-of-the-shire.github.io/first-year/#inky-caps</link>
+      <guid isPermaLink="true">https://baggins-of-the-shire.github.io/first-year/#inky-caps</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
+      <description><![CDATA[<p><img src="https://baggins-of-the-shire.github.io/first-year/images/2026-08-05-inky-caps.jpg" alt="Dozens of inky caps crowd a wet fallen log, the young ones still pale and scaled while the older ones splay open with black, dissolving edges." width="800"></p><p>Turning to ink, a wet fallen log.</p><p>Dozens of inky caps crowd a wet fallen log, the young ones still pale and scaled while the older ones splay open with black, dissolving edges.</p>]]></description>
+      <enclosure url="https://baggins-of-the-shire.github.io/first-year/images/2026-08-05-inky-caps.jpg" length="445987" type="image/jpeg"/>
+      <category>mushrooms</category>
+    </item>
     <item>
       <title>Two in clover</title>
       <link>https://baggins-of-the-shire.github.io/first-year/#rabbit-pair</link>
