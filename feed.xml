@@ -6,7 +6,16 @@
     <atom:link href="https://baggins-of-the-shire.github.io/first-year/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Mushrooms and wildlife from a year of walking one neighborhood slowly.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Where it bends</title>
+      <link>https://baggins-of-the-shire.github.io/first-year/#path-bend</link>
+      <guid isPermaLink="true">https://baggins-of-the-shire.github.io/first-year/#path-bend</guid>
+      <pubDate>Sun, 16 Aug 2026 12:00:00 +0000</pubDate>
+      <description><![CDATA[<p><img src="https://baggins-of-the-shire.github.io/first-year/images/2026-07-12-path-bend.jpg" alt="A gravel path curves out of sight beneath tall trees, daylilies and hostas crowding both edges and evening light coming down through the canopy." width="800"></p><p>Where it bends, under the old trees.</p><p>A gravel path curves out of sight beneath tall trees, daylilies and hostas crowding both edges and evening light coming down through the canopy.</p>]]></description>
+      <enclosure url="https://baggins-of-the-shire.github.io/first-year/images/2026-07-12-path-bend.jpg" length="387251" type="image/jpeg"/>
+      <category>path</category>
+    </item>
     <item>
       <title>Turning to ink</title>
       <link>https://baggins-of-the-shire.github.io/first-year/#inky-caps</link>
