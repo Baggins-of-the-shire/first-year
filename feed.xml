@@ -6,7 +6,16 @@
     <atom:link href="https://baggins-of-the-shire.github.io/first-year/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Mushrooms and wildlife from a year of walking one neighborhood slowly.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Drake on the bank</title>
+      <link>https://baggins-of-the-shire.github.io/first-year/#mallard-pond</link>
+      <guid isPermaLink="true">https://baggins-of-the-shire.github.io/first-year/#mallard-pond</guid>
+      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
+      <description><![CDATA[<p><img src="https://baggins-of-the-shire.github.io/first-year/images/2026-04-29-mallard-pond.jpg" alt="A lone male mallard rests in the grass at the edge of a still green pond, his iridescent head turned toward the water beneath overhanging leaves." width="800"></p><p>Drake on the bank, the green edge of the pond.</p><p>A lone male mallard rests in the grass at the edge of a still green pond, his iridescent head turned toward the water beneath overhanging leaves.</p>]]></description>
+      <enclosure url="https://baggins-of-the-shire.github.io/first-year/images/2026-04-29-mallard-pond.jpg" length="393587" type="image/jpeg"/>
+      <category>birds</category>
+    </item>
     <item>
       <title>Where it bends</title>
       <link>https://baggins-of-the-shire.github.io/first-year/#path-bend</link>
