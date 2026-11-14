@@ -6,7 +6,16 @@
     <atom:link href="https://baggins-of-the-shire.github.io/first-year/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Mushrooms and wildlife from a year of walking one neighborhood slowly.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Owl turned away</title>
+      <link>https://baggins-of-the-shire.github.io/first-year/#young-owl-behind</link>
+      <guid isPermaLink="true">https://baggins-of-the-shire.github.io/first-year/#young-owl-behind</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+      <description><![CDATA[<p><img src="https://baggins-of-the-shire.github.io/first-year/images/2026-06-26-young-owl-behind.jpg" alt="A young owl perches on a thick branch with its back to the camera and its head swiveled aside, beneath a dense canopy of backlit green leaves." width="800"></p><p>Owl turned away, high in the canopy.</p><p>A young owl perches on a thick branch with its back to the camera and its head swiveled aside, beneath a dense canopy of backlit green leaves.</p>]]></description>
+      <enclosure url="https://baggins-of-the-shire.github.io/first-year/images/2026-06-26-young-owl-behind.jpg" length="376724" type="image/jpeg"/>
+      <category>birds</category>
+    </item>
     <item>
       <title>Cat curled tight</title>
       <link>https://baggins-of-the-shire.github.io/first-year/#cat-curled</link>
